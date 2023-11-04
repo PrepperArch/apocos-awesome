@@ -1,5 +1,5 @@
 pkgbase=apocos
-pkgver=0.0.1
+pkgver=0.0.2
 pkgrel=1
 pkgname='apocos-awesome'
 pkgdesc="Awesome wheme and config for Apocalypse OS"
@@ -11,11 +11,12 @@ source=(
     'theme.lua'
 )
 sha256sums=(
-    'a17833792133af16e1b0f0e95f863ac5c4728373422360da778aa316fb325528'
-    '2aecd8eeae69a2654ffb40994e5b313fd05d8fe8058bde418a5021da60c5551c'
+    '71917b600757afb1492cae7f83ea5a345d55236bbb3a6c3e61b4a941b1711a93'
+    '78623c8124e5baff71922408a5e7ad525acbb95115eb2691b9253e477dc8d6f5'
 )
 depends=(
     'apocos-desktop'
+    'awesome' 'rofi'
 )
 
 package(){
