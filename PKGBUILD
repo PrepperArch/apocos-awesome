@@ -1,6 +1,6 @@
 pkgbase=apocos
 pkgver=0.0.2
-pkgrel=2
+pkgrel=3
 pkgname='apocos-awesome'
 pkgdesc="Awesome wheme and config for Apocalypse OS"
 arch=('any')
@@ -12,7 +12,7 @@ source=(
 )
 sha256sums=(
     '71917b600757afb1492cae7f83ea5a345d55236bbb3a6c3e61b4a941b1711a93'
-    '7840ed0bcff32fedc1fe86d75c51cdb19006310db822416aedc552f49431cf77'
+    '41d336d52b8b192051771b5e535fab978fa62c0661d73c681ac30465e9217fdd'
 )
 depends=(
     'apocos-desktop'
