@@ -33,6 +33,14 @@ theme.border_normal = xrdb.color0
 theme.border_focus  = theme.bg_focus
 theme.border_marked = xrdb.color10
 
+theme.notification_bg = theme.bg_normal
+theme.notification_fg = theme.fg_normal
+theme.notification_border_color = theme.bg_focus
+theme.notification_border_width = apply_dpi(2)
+theme.notification_margin = apply_dpi(4)
+theme.notification_icon_size = apply_dpi(48)
+
+
 -- There are other variable sets
 -- overriding the default one when
 -- defined, the sets are:
