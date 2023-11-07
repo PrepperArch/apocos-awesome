@@ -17,9 +17,12 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
 
--- External widgets
--- local battery_widget = require("battery-widget")
-
+-- Setup autostart with awesome session using picom, dex and xrdb
+awful.spawn.with_shell(
+    'if (xrdb -query | grep -q "^awesome\\.started:\\s*true$"); then exit; fi;' ..
+    'xrdb -merge <<< "awesome.started:true";' ..
+    'picom -b; dex --environment Awesome --autostart'
+)
 
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
